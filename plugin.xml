@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
-    id="cordova-plugin-armsoft-mfilechooser"
-    version="1.0.4">
+    id="cordova-plugin-armsoft-mfilechooser-nancydrew"
+    version="1.0.5">
     <name>ArmSoft FileChooser</name>
     <description>File Chooser for Cordova/Phonegap</description>
     <license>MIT</license>
