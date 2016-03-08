@@ -12,7 +12,7 @@ Plugin has been successfully tested on Android 4+ device with Cordova 3.
 To install the plugin
 
 ```
-cordova plugin add https://github.com/roberthovhannisyan/MFileChooser
+cordova plugin add https://github.com/nancydrew123/MFileChooser
 ```
 
 ## Using the plugin ##
