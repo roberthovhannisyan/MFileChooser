@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
-    id="cordova-plugin-armsoft-mfilechooser"
-    version="1.0.4">
-    <name>ArmSoft FileChooser</name>
+    id="cordova-plugin-dotneet-mfilechooser"
+    version="1.0.5">
+    <name>dotneet FileChooser</name>
     <description>File Chooser for Cordova/Phonegap</description>
     <license>MIT</license>
     <keywords>cordova,filechooser,android,filepicker,phonegap</keywords>
-    <repo>https://github.com/roberthovhannisyan/MFileChooser</repo>
+    <repo>https://github.com/dotneet/MFileChooser</repo>
     
     <js-module src="www/mfilechooser.js" name="MFileChooser">
         <clobbers target="MFileChooser" />
@@ -20,11 +20,11 @@
     <!-- android -->
     <platform name="android">
         
-        <dependency id="android.support.v4" url="https://github.com/roberthovhannisyan/cordova-plugin-android-support-v4" />
+        <framework src="com.android.support:support-v4:+" />
         
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="MFileChooser" >
-                <param name="android-package" value="am.armsoft.plugins.MFileChooser"/>
+                <param name="android-package" value="net.devneko.plugins.MFileChooser"/>
             </feature>
         </config-file>
 
@@ -53,14 +53,14 @@
         </config-file>
     
         <!-- cordova plugin src files -->
-        <source-file src="src/android/mfilechooser/MFileChooser.java" target-dir="src/am/armsoft/plugins" />
-        <source-file src="src/android/mfilechooser/Category.java" target-dir="src/am/armsoft/data" />
+        <source-file src="src/android/mfilechooser/MFileChooser.java" target-dir="src/net/devneko/plugins" />
+        <source-file src="src/android/mfilechooser/Category.java" target-dir="src/net/devneko/data" />
         <source-file src="src/android/mfilechooser/Constants.java" target-dir="src/com/orleonsoft/android/simplefilechooser" />
-        <source-file src="src/android/mfilechooser/DirectoryAdapter.java" target-dir="src/am/armsoft/adapters" />
+        <source-file src="src/android/mfilechooser/DirectoryAdapter.java" target-dir="src/net/devneko/adapters" />
         <source-file src="src/android/mfilechooser/FileArrayAdapter.java" target-dir="src/com/orleonsoft/android/simplefilechooser/adapters" />
         <source-file src="src/android/mfilechooser/FileChooserActivity.java" target-dir="src/com/orleonsoft/android/simplefilechooser/ui" />        
         <source-file src="src/android/mfilechooser/FileInfo.java" target-dir="src/com/orleonsoft/android/simplefilechooser" />
-        <source-file src="src/android/mfilechooser/Utils.java" target-dir="src/am/armsoft/utils" />
+        <source-file src="src/android/mfilechooser/Utils.java" target-dir="src/net/devneko/utils" />
 
         <!-- res files -->
         <source-file src="src/android/mfilechooser/res/drawable/divider_line_grey.png" target-dir="res/drawable" />
