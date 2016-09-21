@@ -12,7 +12,7 @@ Plugin has been successfully tested on Android 4+ device with Cordova 3.
 To install the plugin
 
 ```
-cordova plugin add https://github.com/roberthovhannisyan/MFileChooser
+cordova plugin add https://github.com/dotneet/MFileChooser
 ```
 
 ## Using the plugin ##
@@ -53,4 +53,8 @@ September 16, 2014 Initial release
 
 ## Contribution ##
 
-I wrote this plugin basing on the [simple-file-chooser](https://github.com/ingyesid/simple-file-chooser) by [ingyesid](https://github.com/ingyesid)
+This plugin based on follow repository:
+
+ - https://github.com/ingyesid/simple-file-chooser (by ingyesid)
+ - https://github.com/roberthovhannisyan/MFileChooser (by roberthovhannisyan)
+
