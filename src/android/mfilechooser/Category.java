@@ -1,4 +1,4 @@
-package am.armsoft.data;
+package net.devneko.data;
 
 public class Category {
   public String title;

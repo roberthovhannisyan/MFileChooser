@@ -1,9 +1,9 @@
-package am.armsoft.adapters;
+package net.devneko.adapters;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import am.armsoft.data.Category;
+import net.devneko.data.Category;
 
 import android.app.Activity;
 import android.content.Context;

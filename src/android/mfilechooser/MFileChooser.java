@@ -1,4 +1,4 @@
-package am.armsoft.plugins;
+package net.devneko.plugins;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package am.armsoft.plugins;
+package net.devneko.plugins;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
