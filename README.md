@@ -12,7 +12,7 @@ Plugin has been successfully tested on Android 4+ device with Cordova 3.
 To install the plugin
 
 ```
-cordova plugin add https://github.com/dotneet/MFileChooser
+cordova plugin add --save cordova-plugin-dotneet-mfilechooser
 ```
 
 ## Using the plugin ##
