@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-dotneet-mfilechooser",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "File Chooser for Cordova/Phonegap",
   "cordova": {
     "id": "cordova-plugin-dotneet-mfilechooser",

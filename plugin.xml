@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
     id="cordova-plugin-dotneet-mfilechooser"
-    version="1.0.5">
+    version="1.0.6">
     <name>dotneet FileChooser</name>
     <description>File Chooser for Cordova/Phonegap</description>
     <license>MIT</license>
