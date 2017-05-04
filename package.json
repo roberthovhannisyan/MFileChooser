@@ -1,16 +1,16 @@
 {
-  "name": "cordova-plugin-armsoft-mfilechooser",
-  "version": "1.0.4",
+  "name": "cordova-plugin-dotneet-mfilechooser",
+  "version": "1.0.7",
   "description": "File Chooser for Cordova/Phonegap",
   "cordova": {
-    "id": "cordova-plugin-armsoft-mfilechooser",
+    "id": "cordova-plugin-dotneet-mfilechooser",
     "platforms": [
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roberthovhannisyan/MFileChooser.git"
+    "url": "git+https://github.com/dotneet/MFileChooser.git"
   },
   "keywords": [
     "cordova",
@@ -27,10 +27,10 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": "",
+  "author": "devneko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/roberthovhannisyan/MFileChooser/issues"
+    "url": "https://github.com/dotneet/MFileChooser/issues"
   },
-  "homepage": "https://github.com/roberthovhannisyan/MFileChooser#readme"
+  "homepage": "https://github.com/dotneet/MFileChooser#readme"
 }

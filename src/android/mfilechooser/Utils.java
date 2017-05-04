@@ -1,11 +1,11 @@
-package am.armsoft.utils;
+package net.devneko.utils;
 
 import java.io.File;
 
 import android.content.Context;
 import android.os.Environment;
 
-import am.armsoft.data.Category;
+import net.devneko.data.Category;
 
 public class Utils {
 	
